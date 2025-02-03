@@ -1,0 +1,33 @@
+thead {
+  background-color: darkcyan;
+}
+
+caption {
+  font-size: 25pt;
+}
+
+tfoot {
+  background-color: mediumaquamarine;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 10em;
+  width: 80%;
+}
+
+th,
+td {
+  text-align: left;
+  font-size: 18pt;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+tbody tr:nth-child(odd):hover {
+  background: green;
+}
